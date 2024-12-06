@@ -7,4 +7,4 @@ configmap:
 
 image:
   name: eyesoncloud/webapp
-  tag: 33
+  tag: 34
