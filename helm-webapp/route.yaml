@@ -1,0 +1,12 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  namespace:  nginx-namespace7253 
+  labels: {}
+spec:
+  to:
+    kind: Service
+    name:  nginx-namespace7253 
+  port:
+    targetPort: 80  
+  wildcardPolicy: None  

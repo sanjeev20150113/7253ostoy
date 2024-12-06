@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: nginx-secret7253
+  namespace: nginx-namespace7253
+data:
+  APP_KEY: 'TXlTZWNyZXRLMTIz'  # Base64 encoded value of "MySecretKey123"
